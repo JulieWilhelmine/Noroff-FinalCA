@@ -1,0 +1,16 @@
+//variables
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|News+Cycle&display=swap);
+
+$bree: 'Bree Serif', serif;
+$news: 'News Cycle', sans-serif;
+
+@import "partials/header.scss";
+@import "partials/card.scss";
+@import "partials/login.scss";
+@import "partials/search.scss";
+@import "partials/about.scss";
+@import "partials/navigation.scss";
+@import "partials/specific-card.scss";
+@import "partials/contact.scss";
+
+body { background-color: rgb(206, 248, 206); }

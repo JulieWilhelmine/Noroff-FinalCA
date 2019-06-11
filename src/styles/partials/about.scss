@@ -1,0 +1,30 @@
+// about
+
+.about{
+    font-family: $news;
+    font-size: 1.3em;
+    &__more{
+        font-family: $news;
+        font-size: 1.3em; 
+    }
+    &__heading{
+        margin: 10% 0 30px 0;
+        font-family: $bree;
+        color: rgb(50, 128, 82);
+    }
+    &__button{
+        text-align: center;
+        padding: 15px 25px; 
+        margin: 20px auto 20px auto;
+        width: 400px;
+        border: 3px solid rgb(50, 128, 82);
+        border-radius: 15px 15px;
+        background-color: rgb(42, 146, 85);
+        color: white;
+        font-size: 1.5em;
+        font-family: $bree;
+        &:hover{
+            background-color: green;
+        }
+    }
+}

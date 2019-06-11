@@ -1,0 +1,11 @@
+// Search
+
+.search{
+    margin-top: 10%;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px 15px;
+    &__input{
+        border: 2px solid rgb(96, 172, 136);
+    }
+}

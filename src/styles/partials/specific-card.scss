@@ -1,0 +1,22 @@
+// specific-card
+
+.specific-card{
+    margin-top: 50px;
+    background-color: rgb(136, 214, 166);
+    padding: 20px 5px 40px 20px;
+    border: 3px solid rgb(96, 172, 136);
+    border-radius: 15px 15px;
+    width: 1000px;
+    &__name{
+        font-family: $bree;
+        color:  rgb(24, 71, 44);
+    }
+    &__info{
+        font-family: $news;
+        font-size: 1.2em;
+        width: 500px;
+    }
+    img{
+        margin-left: 60px;
+    }
+}

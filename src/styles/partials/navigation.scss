@@ -1,0 +1,22 @@
+// navigation
+
+.navbar{
+    margin-top: 30px;
+    margin-left: 30%;
+    &__links{
+        margin: 0 30px 0 30px;
+        font-family: $bree;
+        font-size: 1.5em;
+    }
+    a{
+        color:rgb(50, 128, 82);
+        &:hover{
+            color: green;
+        }
+    }
+    li{
+    list-style: none;
+    }
+}
+
+
