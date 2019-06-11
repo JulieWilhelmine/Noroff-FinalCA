@@ -1,16 +1,13 @@
 # README #
-This is a blank template for a react.js application
-SASS and live reload have already been configured.
 
-#How do I get set up?
+To view the project: 
+
 Clone the repo
 
 cd into repo
 
-npm install
+run "npm install"
 
-npm start
+run "npm start"
 
-#To build for production
-
-npm run build
+open the provided local host to view the project
