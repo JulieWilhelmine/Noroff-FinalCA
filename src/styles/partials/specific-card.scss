@@ -2,21 +2,23 @@
 
 .specific-card{
     margin-top: 50px;
-    background-color: rgb(136, 214, 166);
+    background-color: rgb(16, 16, 29);
     padding: 20px 5px 40px 20px;
-    border: 3px solid rgb(96, 172, 136);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 15px 15px;
     width: 1000px;
     &__name{
         font-family: $bree;
-        color:  rgb(24, 71, 44);
+        color:  rgb(255, 255, 255);
     }
     &__info{
         font-family: $news;
         font-size: 1.2em;
         width: 500px;
+        color: white;
     }
     img{
         margin-left: 60px;
+        border-radius: 15px;
     }
 }

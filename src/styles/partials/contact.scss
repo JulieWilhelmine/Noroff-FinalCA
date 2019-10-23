@@ -2,18 +2,18 @@
 
 .contact{
     padding: 20px;
-    background-color: rgb(136, 214, 166);
+    background-color: rgb(16, 16, 29);
     width: 800px;
-    border: 3px solid rgb(96, 172, 136);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 15px 15px;
     &__text{
         margin: 10% auto 0 auto;
         font-family: $bree;
-        color: rgb(50, 128, 82);
+        color: rgb(255, 255, 255);
     }
     &__title{
         margin-right: 8px;
-        color:  rgb(24, 71, 44);
+        color:  rgb(255, 255, 255);
     }
     &__input{
         margin: 15px 30px 15px 0;
@@ -25,13 +25,13 @@
         padding: 4px 20px;
         margin-left: 15px;
         color: white;
-        border: 2px solid rgb(96, 172, 136);
+        border: 2px solid rgb(185, 90, 0);
         border-radius: 15px 15px;
-        background-color: rgb(42, 146, 85);
+        background-color: rgb(252, 101, 0);
         font-family: $bree;
         font-size: 1.2em;
         &:hover{
-        background-color: green;
+        background-color: rgb(231, 130, 15);
         }
     }
     &__input--first{
@@ -42,5 +42,8 @@
     }
     &__input--last{
         margin-left: 30px;
+    }
+    &__error{
+        color: rgb(155, 155, 155);
     }
 }

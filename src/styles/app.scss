@@ -13,4 +13,7 @@ $news: 'News Cycle', sans-serif;
 @import "partials/specific-card.scss";
 @import "partials/contact.scss";
 
-body { background-color: rgb(206, 248, 206); }
+body { 
+    //background-color: rgb(206, 248, 206);
+    background: #eee url('http://juliewilhelmine.com/black.png') center;
+ }

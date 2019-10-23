@@ -25,17 +25,14 @@ export default class CardSpecific extends React.Component {
             return response.json()
         })
         .then(result => {
-            console.log(result)
             app.setState({
                 cardsObj: result.card
             })
-            console.log(result, 'result')
         });
     }
 
     render() {
         const app = this;
-        console.log('app.state.cardId', app.props)
         let specificCard = <CardSpecificComponent image={app.state.cardsObj.imageUrl}
                                                   name={app.state.cardsObj.name}
                                                   text={app.state.cardsObj.text}
