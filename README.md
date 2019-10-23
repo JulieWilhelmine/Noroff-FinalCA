@@ -1,4 +1,6 @@
-# README #
+## Noroff Final CA
+
+React app created for Front-End Development Studies at Noroff.
 
 To view the project: 
 
